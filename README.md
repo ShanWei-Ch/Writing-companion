@@ -58,7 +58,6 @@ writing-companion/
 │   ├── services/              # Analysis, ML, and reaction services
 │   ├── utils/                 # Text processing helpers
 │   ├── ml/
-│   │   ├── ML_SYSTEM.md       # ML system documentation
 │   │   ├── training_data.json # Seed training data
 │   │   ├── train_models.py    # Initial model training
 │   │   ├── online_learner.py  # Online feedback updates
