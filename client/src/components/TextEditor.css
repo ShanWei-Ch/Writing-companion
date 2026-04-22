@@ -1,0 +1,236 @@
+.editor-meta-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 18px;
+  align-items: center;
+}
+
+.editor-meta-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.editor-meta-select {
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1.5px solid #e0d8c8;
+  background: #f8f5f2;
+  color: #3c2814;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+.editor-meta-select:focus {
+  outline: none;
+  border-color: #e6b07a;
+}
+.editor-meta-select:disabled {
+  background: #f3ede7;
+  color: #b8a898;
+}
+.text-editor {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.text-editor h2 {
+  color: #333;
+  margin: 0 0 20px 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.editor-textarea {
+  min-height: 260px;
+  height: 700px;
+  padding: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.6;
+  resize: vertical;
+  transition: all 0.3s ease;
+  color: #333;
+  background: white;
+}
+
+.editor-textarea::placeholder {
+  color: #bbb;
+}
+
+.editor-textarea:focus {
+  outline: none;
+  border-color: #e6b07a;
+  box-shadow: 0 0 0 3px rgba(230, 176, 122, 0.18);
+  background: white;
+}
+
+.editor-textarea:disabled {
+  background-color: #f5f5f5;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.editor-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.editor-info {
+  color: #999;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.analyze-button {
+  padding: 12px 32px;
+  background: var(--soft-blue);
+  color: var(--soft-blue-text);
+  border: 1px solid var(--soft-blue-border);
+  border-radius: 6px;
+  white-space: nowrap;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.95rem;
+}
+
+.analyze-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.analyze-quick {
+  background: var(--soft-blue);
+  color: var(--soft-blue-text);
+  border-color: var(--soft-blue-border);
+}
+
+.analyze-wizard {
+  background: #e7f5ee;
+  color: #2f6b4f;
+  border-color: #a8d8bf;
+}
+
+.analyze-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(191, 219, 254, 0.45);
+}
+
+.analyze-button:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(191, 219, 254, 0.35);
+}
+
+.analyze-button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* P4: Template and Editor Actions */
+.editor-footer {
+  display: flex;
+  gap: 12px;
+  padding-top: 15px;
+  border-top: 1px solid #f0f0f0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.editor-actions {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+  flex-wrap: wrap;
+  min-width: 0;
+}
+
+.template-buttons {
+  display: flex;
+  gap: 8px;
+  min-width: auto;
+  flex-wrap: wrap;
+}
+
+.template-btn {
+  padding: 10px 16px;
+  border: 1.5px solid #e0d8c8;
+  border-radius: 8px;
+  background: #f8f5f2;
+  color: #7a5c2e;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.template-btn:hover:not(:disabled) {
+  background: #f0ede7;
+  border-color: #d4c5b0;
+  box-shadow: 0 2px 8px rgba(180, 140, 100, 0.1);
+}
+
+.template-btn:active:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.template-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.save-template {
+  border-left: 3px solid #4caf50;
+}
+
+.use-template {
+  border-left: 3px solid var(--soft-blue-border);
+}
+
+.analyze-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Responsive: Stack buttons vertically on mobile */
+@media (max-width: 600px) {
+  .editor-footer {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+
+  .editor-info {
+    order: 2;
+  }
+
+  .editor-actions {
+    order: 1;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .template-buttons {
+    width: 100%;
+  }
+
+  .analyze-buttons {
+    width: 100%;
+  }
+
+  .template-btn,
+  .analyze-button {
+    flex: 1;
+  }
+}

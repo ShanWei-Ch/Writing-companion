@@ -1,0 +1,32 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Env files
+.env
+.env.local
+
+# Build / dependencies handled in nested apps as well
+client/node_modules/
+server/node_modules/
+client/build/
+server/build/
+
+# Server artifacts
+server/server.log
+
+# ML model artifacts (trained models - regenerate with train_models.py)
+server/ml/models/*.pkl
+server/ml/models/feedback_log.json
+server/ml/models/metrics.json
+

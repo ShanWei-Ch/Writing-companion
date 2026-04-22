@@ -1,0 +1,660 @@
+{
+  "metadata": {
+    "version": "1.1",
+    "description": "Balanced seed data for context-aware suggestion recommendation models aligned with UI context/recipient options",
+    "generated": "2026-04-10",
+    "samples_per_model": 10,
+    "label_balance": "5 helpful / 5 not helpful for each model",
+    "model_pairs": [
+      "work_boss",
+      "work_colleague",
+      "relationship_partner",
+      "friend_friend",
+      "customer_service_customer",
+      "family_parent",
+      "family_child",
+      "other_other",
+      "general_general"
+    ]
+  },
+  "data": [
+    {
+      "context": "work",
+      "recipient": "boss",
+      "suggestion": "Add data to support your concern",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "work",
+      "recipient": "boss",
+      "suggestion": "Use a concise professional tone",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "work",
+      "recipient": "boss",
+      "suggestion": "State the business impact clearly",
+      "helpful": true,
+      "sentiment": "angry"
+    },
+    {
+      "context": "work",
+      "recipient": "boss",
+      "suggestion": "Ask for a specific next step",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "work",
+      "recipient": "boss",
+      "suggestion": "Replace blame with observable facts",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "work",
+      "recipient": "boss",
+      "suggestion": "Use emotional language to show how upset you are",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "work",
+      "recipient": "boss",
+      "suggestion": "Make the message casual and playful",
+      "helpful": false,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "work",
+      "recipient": "boss",
+      "suggestion": "Demand an immediate answer",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "work",
+      "recipient": "boss",
+      "suggestion": "Focus mainly on personal frustration",
+      "helpful": false,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "work",
+      "recipient": "boss",
+      "suggestion": "Use vague hints instead of a direct request",
+      "helpful": false,
+      "sentiment": "neutral"
+    },
+
+    {
+      "context": "work",
+      "recipient": "colleague",
+      "suggestion": "Use a collaborative tone",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "work",
+      "recipient": "colleague",
+      "suggestion": "Clarify the shared goal",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "work",
+      "recipient": "colleague",
+      "suggestion": "Ask for input instead of assigning blame",
+      "helpful": true,
+      "sentiment": "angry"
+    },
+    {
+      "context": "work",
+      "recipient": "colleague",
+      "suggestion": "Suggest a concrete next step",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "work",
+      "recipient": "colleague",
+      "suggestion": "Acknowledge their effort before raising the issue",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "work",
+      "recipient": "colleague",
+      "suggestion": "Make the message more formal and distant",
+      "helpful": false,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "work",
+      "recipient": "colleague",
+      "suggestion": "Escalate the issue immediately",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "work",
+      "recipient": "colleague",
+      "suggestion": "Use sarcasm to make the point clear",
+      "helpful": false,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "work",
+      "recipient": "colleague",
+      "suggestion": "Remove the specific request",
+      "helpful": false,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "work",
+      "recipient": "colleague",
+      "suggestion": "Compare their work negatively to someone else's",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+
+    {
+      "context": "relationship",
+      "recipient": "partner",
+      "suggestion": "Use I-statements instead of accusations",
+      "helpful": true,
+      "sentiment": "angry"
+    },
+    {
+      "context": "relationship",
+      "recipient": "partner",
+      "suggestion": "Name the feeling and the specific need",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "relationship",
+      "recipient": "partner",
+      "suggestion": "Add warmth before discussing the problem",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "relationship",
+      "recipient": "partner",
+      "suggestion": "Ask for a conversation rather than a verdict",
+      "helpful": true,
+      "sentiment": "angry"
+    },
+    {
+      "context": "relationship",
+      "recipient": "partner",
+      "suggestion": "Acknowledge their perspective",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "relationship",
+      "recipient": "partner",
+      "suggestion": "Add evidence to prove you are right",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "relationship",
+      "recipient": "partner",
+      "suggestion": "Be more formal and professional",
+      "helpful": false,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "relationship",
+      "recipient": "partner",
+      "suggestion": "Use an ultimatum",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "relationship",
+      "recipient": "partner",
+      "suggestion": "Keep the message cold and brief",
+      "helpful": false,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "relationship",
+      "recipient": "partner",
+      "suggestion": "List every past mistake",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+
+    {
+      "context": "friend",
+      "recipient": "friend",
+      "suggestion": "Keep the tone casual and honest",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "friend",
+      "recipient": "friend",
+      "suggestion": "Use warmth before saying what bothered you",
+      "helpful": true,
+      "sentiment": "angry"
+    },
+    {
+      "context": "friend",
+      "recipient": "friend",
+      "suggestion": "Be direct without sounding harsh",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "friend",
+      "recipient": "friend",
+      "suggestion": "Invite them to explain their side",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "friend",
+      "recipient": "friend",
+      "suggestion": "Use light humor only if it softens the message",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "friend",
+      "recipient": "friend",
+      "suggestion": "Make it sound like a corporate email",
+      "helpful": false,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "friend",
+      "recipient": "friend",
+      "suggestion": "Add data to support your argument",
+      "helpful": false,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "friend",
+      "recipient": "friend",
+      "suggestion": "Use guilt to make them respond",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "friend",
+      "recipient": "friend",
+      "suggestion": "Avoid saying what you need",
+      "helpful": false,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "friend",
+      "recipient": "friend",
+      "suggestion": "Send a passive-aggressive one-liner",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+
+    {
+      "context": "customer_service",
+      "recipient": "customer",
+      "suggestion": "Acknowledge the customer's frustration",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "customer_service",
+      "recipient": "customer",
+      "suggestion": "Apologize for the inconvenience without overpromising",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "customer_service",
+      "recipient": "customer",
+      "suggestion": "Explain the next step clearly",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "customer_service",
+      "recipient": "customer",
+      "suggestion": "Use calm and professional language",
+      "helpful": true,
+      "sentiment": "angry"
+    },
+    {
+      "context": "customer_service",
+      "recipient": "customer",
+      "suggestion": "Give a realistic timeline",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "customer_service",
+      "recipient": "customer",
+      "suggestion": "Tell the customer they are wrong",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "customer_service",
+      "recipient": "customer",
+      "suggestion": "Use casual slang to sound friendly",
+      "helpful": false,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "customer_service",
+      "recipient": "customer",
+      "suggestion": "Avoid giving a next step",
+      "helpful": false,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "customer_service",
+      "recipient": "customer",
+      "suggestion": "Blame another team",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "customer_service",
+      "recipient": "customer",
+      "suggestion": "Promise a result you cannot guarantee",
+      "helpful": false,
+      "sentiment": "frustrated"
+    },
+
+    {
+      "context": "family",
+      "recipient": "parent",
+      "suggestion": "Show respect while stating your boundary",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "family",
+      "recipient": "parent",
+      "suggestion": "Acknowledge their concern before disagreeing",
+      "helpful": true,
+      "sentiment": "angry"
+    },
+    {
+      "context": "family",
+      "recipient": "parent",
+      "suggestion": "Use calm language about what you need",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "family",
+      "recipient": "parent",
+      "suggestion": "Avoid absolute statements like always or never",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "family",
+      "recipient": "parent",
+      "suggestion": "Ask for understanding rather than permission",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "family",
+      "recipient": "parent",
+      "suggestion": "Be sarcastic to show how unfair it feels",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "family",
+      "recipient": "parent",
+      "suggestion": "Make the message sound like a workplace report",
+      "helpful": false,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "family",
+      "recipient": "parent",
+      "suggestion": "Bring up every old conflict",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "family",
+      "recipient": "parent",
+      "suggestion": "Avoid saying what boundary you want",
+      "helpful": false,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "family",
+      "recipient": "parent",
+      "suggestion": "Use an ultimatum as the main message",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+
+    {
+      "context": "family",
+      "recipient": "child",
+      "suggestion": "Use simple and reassuring language",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "family",
+      "recipient": "child",
+      "suggestion": "Explain the reason behind the boundary",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "family",
+      "recipient": "child",
+      "suggestion": "Name the behavior without attacking character",
+      "helpful": true,
+      "sentiment": "angry"
+    },
+    {
+      "context": "family",
+      "recipient": "child",
+      "suggestion": "Offer a clear next step",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "family",
+      "recipient": "child",
+      "suggestion": "Validate their feelings before correcting behavior",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "family",
+      "recipient": "child",
+      "suggestion": "Use shame to make the lesson stick",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "family",
+      "recipient": "child",
+      "suggestion": "Make the message abstract and complicated",
+      "helpful": false,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "family",
+      "recipient": "child",
+      "suggestion": "Compare them negatively to someone else",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "family",
+      "recipient": "child",
+      "suggestion": "Avoid explaining the expected behavior",
+      "helpful": false,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "family",
+      "recipient": "child",
+      "suggestion": "Threaten consequences without context",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+
+    {
+      "context": "other",
+      "recipient": "other",
+      "suggestion": "Clarify the main point",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "other",
+      "recipient": "other",
+      "suggestion": "Use respectful neutral language",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "other",
+      "recipient": "other",
+      "suggestion": "State the request directly",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "other",
+      "recipient": "other",
+      "suggestion": "Remove blame and focus on the situation",
+      "helpful": true,
+      "sentiment": "angry"
+    },
+    {
+      "context": "other",
+      "recipient": "other",
+      "suggestion": "Add enough context for the recipient to respond",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "other",
+      "recipient": "other",
+      "suggestion": "Make the tone more aggressive",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "other",
+      "recipient": "other",
+      "suggestion": "Remove the main request",
+      "helpful": false,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "other",
+      "recipient": "other",
+      "suggestion": "Use vague emotional hints",
+      "helpful": false,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "other",
+      "recipient": "other",
+      "suggestion": "Assume the recipient already knows the issue",
+      "helpful": false,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "other",
+      "recipient": "other",
+      "suggestion": "Use insults to emphasize the problem",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+
+    {
+      "context": "general",
+      "recipient": "general",
+      "suggestion": "Use I-statements instead of accusations",
+      "helpful": true,
+      "sentiment": "angry"
+    },
+    {
+      "context": "general",
+      "recipient": "general",
+      "suggestion": "Soften harsh language",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "general",
+      "recipient": "general",
+      "suggestion": "Avoid absolute statements like always or never",
+      "helpful": true,
+      "sentiment": "angry"
+    },
+    {
+      "context": "general",
+      "recipient": "general",
+      "suggestion": "Be clear about what you need",
+      "helpful": true,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "general",
+      "recipient": "general",
+      "suggestion": "Consider the recipient's perspective",
+      "helpful": true,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "general",
+      "recipient": "general",
+      "suggestion": "Use blame to make the point stronger",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "general",
+      "recipient": "general",
+      "suggestion": "Make the message more vague",
+      "helpful": false,
+      "sentiment": "neutral"
+    },
+    {
+      "context": "general",
+      "recipient": "general",
+      "suggestion": "Remove empathy from the message",
+      "helpful": false,
+      "sentiment": "frustrated"
+    },
+    {
+      "context": "general",
+      "recipient": "general",
+      "suggestion": "Use sarcasm to express frustration",
+      "helpful": false,
+      "sentiment": "angry"
+    },
+    {
+      "context": "general",
+      "recipient": "general",
+      "suggestion": "Avoid asking for a specific next step",
+      "helpful": false,
+      "sentiment": "neutral"
+    }
+  ]
+}
