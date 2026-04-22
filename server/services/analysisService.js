@@ -160,6 +160,12 @@ function promptSafe(value) {
     .slice(0, 120);
 }
 
+function repairTrailingCommas(jsonText) {
+  return String(jsonText)
+    .replace(/,\s*([}\]])/g, '$1')
+    .trim();
+}
+
 function getContextWeight(context, recipient, category) {
   return CONTEXT_WEIGHTS[context]?.[recipient]?.[category] || 1;
 }
@@ -704,8 +710,10 @@ Only return JSON. No other text.`
             llmResult = JSON.parse(jsonStr);
             console.log('✓ JSON parsed successfully (extracted)');
           } catch (e2) {
-            console.log('Extracted JSON parse failed:', e2.message);
-            throw e2;
+            console.log('Extracted JSON parse failed, trying trailing comma repair:', e2.message);
+            const repairedJsonStr = repairTrailingCommas(jsonStr);
+            llmResult = JSON.parse(repairedJsonStr);
+            console.log('✓ JSON parsed successfully (repaired)');
           }
         } else {
           console.log(`Could not find JSON: startIdx=${startIdx}, endIdx=${endIdx}`);
